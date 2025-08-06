@@ -5,7 +5,7 @@ using namespace std;
 class MyCompare
 {
 public:
-	bool operator()(int v1,int v2)
+	bool operator()(int v1,int v2) const
 	{
 		//½µÐò
 		return v1 > v2;

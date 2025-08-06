@@ -8,7 +8,7 @@ void myPrint(int val)
 	cout << val << " ";
 }
 
-//常用集合算法  set_difference 
+//常用集合算法  set_difference  求2个容器的差集
 void test01()
 {
 	vector<int>v1;
